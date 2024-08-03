@@ -19,6 +19,13 @@ app.use((req, res, next) => {
 // Endpoint to fetch data from HubSpot API
 
 /*
+
+
+app.get('/', async (req, res) => {
+res.send('<h1>Hello</h1>');
+    next();
+}
+
 app.get('/hubspot-api', async (req, res) => {
     try {
         // Assuming token is passed as a query parameter

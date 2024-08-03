@@ -22,9 +22,8 @@ app.use((req, res, next) => {
 
 
 app.get('/', async (req, res) => {
-res.send('<h1>Hello</h1>');
-    next();
-}
+res.send('<h1>server is running fine</h1>'); 
+});
 
 app.get('/hubspot-api', async (req, res) => {
     try {
